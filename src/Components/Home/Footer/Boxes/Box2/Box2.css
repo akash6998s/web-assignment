@@ -1,0 +1,10 @@
+.box2{
+    position: relative;
+}
+
+.box-2-km{
+    position: absolute;
+    bottom: 40px;
+    left: 36%;
+    font-size: 1rem;
+}

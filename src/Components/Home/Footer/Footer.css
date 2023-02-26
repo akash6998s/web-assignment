@@ -1,0 +1,32 @@
+.footer{
+    width: 680px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+
+.footer-heading p{
+    font-size: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.containers{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 20px 15px;
+}
+
+.box{
+    width: 180px;
+    height: 100px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #1f72a8;
+    background-color: white;
+}
+
+.line{
+    background-color: var(--primary-color);
+}

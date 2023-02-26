@@ -1,0 +1,59 @@
+.bg-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    color: var(--primary-text-color);
+}
+
+.bg-country {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.bg-country-icon{
+    font-size: 4rem;
+    position: absolute;
+    right: 210px;
+    top: -32px;
+}
+
+.bg-country h2 {
+    display: flex;
+    font-size: 0.7rem;
+    margin-right: 40px; 
+}
+
+.bg-country p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    font-size: 0.6rem;
+}
+
+.bg-date {
+    display: flex;
+    align-items: center;
+}
+
+.bg-date p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    color: var(--secondary-text-color);
+    margin-right: 12px;
+
+}
+
+.bg-date p:first-child {
+    margin-right: 60px;
+}
+
+.bg-date p:last-child {
+    margin-left: 60px;
+}
